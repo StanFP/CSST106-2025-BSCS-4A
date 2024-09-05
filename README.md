@@ -1,3 +1,6 @@
+
+https://github.com/user-attachments/assets/4b3c55ea-85ed-42d4-8e00-01399f4c3615
+
 # **Introduction to Computer Vision**
 
 when it comes to the application of computer vision in artificial intelligence for machine. It's about pulling out vital data from an image or images automatically and taking the sense of it. The end goal of computer vision is to replicate the capabilities of human vision so that machines can recognize objects, understand their surroundings and make decisions using visual inputs. These networks are passed through multiple stages for visual data processing, including; preprocessing the column values of entered pictures (color bits), extracting potential properties from those images and making a decision:
