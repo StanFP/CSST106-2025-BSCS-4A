@@ -28,24 +28,24 @@ Image processing techniques such as segmentation, edge detection help AI systems
 Image processing involves several techniques that are essential for extracting valuable information from images. Here are three core techniques:
 1. Image Enhancement
 
-  The process of improving image quality by enhancing aspects such as resolution, reducing artifacts, and increasing quantitative accuracy, often using AI techniques like deep neural networks to transform low-quality images into high-quality ones.
+    The process of improving image quality by enhancing aspects such as resolution, reducing artifacts, and increasing quantitative accuracy, often using AI techniques like deep neural networks to transform low-quality images into high-quality ones.
 
-  * Gaussian filtering is a linear smoothing filter that eliminates Gaussian noise and is widely used in the noise reduction process of image processing. In general, Gaussian filtering is a process of weighted averaging of the entire image.
-  * A Sobel filter, in the context of Computer Science, is a type of filter that is used for edge detection in images. It is defined by a specific matrix or window size, such as 3x3 or 5x5, and is applied to the image to highlight the edges by calculating the gradient intensity.
+    * Gaussian filtering is a linear smoothing filter that eliminates Gaussian noise and is widely used in the noise reduction process of image processing. In general, Gaussian filtering is a process of weighted averaging of the entire image.
+    * A Sobel filter, in the context of Computer Science, is a type of filter that is used for edge detection in images. It is defined by a specific matrix or window size, such as 3x3 or 5x5, and is applied to the image to highlight the edges by calculating the gradient intensity.
 
-  **Role in AI: Filtering helps AI systems by preprocessing images to remove unwanted noise, making it easier to extract meaningful features for further analysis.**
+    **Role in AI: Filtering helps AI systems by preprocessing images to remove unwanted noise, making it easier to extract meaningful features for further analysis.**
 
 2. Image Restoration
 
-  The process of recovering an image from a degraded version—usually a blurred and noisy image. Image restoration is a fundamental problem in image processing, and it also provides a testbed for more general inverse problems.
+      The process of recovering an image from a degraded version—usually a blurred and noisy image. Image restoration is a fundamental problem in image processing, and it also provides a testbed for more general inverse problems.
 
-  **Role in AI: Image restoration techniques play a critical role in improving the quality of images used in AI systems. By restoring degraded images, AI models can perform more accurate analysis and make better predictions. This is particularly important in applications like medical imaging, where accurate reconstruction of images is essential for diagnosis, and in satellite imagery, where high-quality images are crucial for analysis and interpretation**
+    **Role in AI: Image restoration techniques play a critical role in improving the quality of images used in AI systems. By restoring degraded images, AI models can perform more accurate analysis and make better predictions. This is particularly important in applications like medical imaging, where accurate reconstruction of images is essential for diagnosis, and in satellite imagery, where high-quality images are crucial for analysis and interpretation**
 
 3. Image Compression
 
    a process applied to a graphics file to minimize its size in bytes without degrading image quality below an acceptable threshold. By reducing the file size, more images can be stored in a given amount of disk or memory space.
 
-  **Role in AI: Image compression is essential for managing large volumes of image data efficiently. It enables faster storage, retrieval, and processing of images, which is crucial for AI systems that handle vast amounts of visual data. Compressed images can be transmitted more quickly over networks and processed with reduced computational resources, facilitating real-time applications such as video surveillance and streaming. Additionally, it helps in optimizing storage and reducing costs associated with data management.**
+    **Role in AI: Image compression is essential for managing large volumes of image data efficiently. It enables faster storage, retrieval, and processing of images, which is crucial for AI systems that handle vast amounts of visual data. Compressed images can be transmitted more quickly over networks and processed with reduced computational resources, facilitating real-time applications such as video surveillance and streaming. Additionally, it helps in optimizing storage and reducing costs associated with data management.**
 
 
 
@@ -54,19 +54,19 @@ Image processing involves several techniques that are essential for extracting v
 **How Image Processing is Used:**
 
 1. Preprocessing:
-  * Face Detection - The very first step, while recognizing a facial image, involves face detection. Essentially, the task is performed using the Viola-Jones algorithm or other modern methods like Haar cascades and Deep Learning based detectors such as MTCNN.
+    * Face Detection - The very first step, while recognizing a facial image, involves face detection. Essentially, the task is performed using the Viola-Jones algorithm or other modern methods like Haar cascades and Deep Learning based detectors such as MTCNN.
 
-  * Normalization - if a face is detected, the image is normalized by changing the lighting, scaling, and rotation to ensure uniformity across images.
+    * Normalization - if a face is detected, the image is normalized by changing the lighting, scaling, and rotation to ensure uniformity across images.
 
 2. Feature Extraction
-  * Key Point Detection - One of the important tasks in face analysis is to detect key locations on a person's face e.g., eyes, nose and mouth. These features are extracted by techniques such as Local Binary Patterns (LBP), Histogram of Oriented Gradients (HOG), or increasingly, Convolutional Neural Networks (CNNs).
+    * Key Point Detection - One of the important tasks in face analysis is to detect key locations on a person's face e.g., eyes, nose and mouth. These features are extracted by techniques such as Local Binary Patterns (LBP), Histogram of Oriented Gradients (HOG), or increasingly, Convolutional Neural Networks (CNNs).
 
-  * Embedding Generation - The extracted features are converted to an embedding, a compact vector that encapsulates the identity of the face.
+    * Embedding Generation - The extracted features are converted to an embedding, a compact vector that encapsulates the identity of the face.
 
 3. Face Matching
-  * comparison - The generated face embedding is compared with the embeddings stored in a database on the smartphone. Pipeline to compare faces between two images using similarity measures like Euclidean distance or cosine-similarity.
+    * comparison - The generated face embedding is compared with the embeddings stored in a database on the smartphone. Pipeline to compare faces between two images using similarity measures like Euclidean distance or cosine-similarity.
 4. Decision Making:
-  * Authentication - Using the similarity score, system decides to authenticate or not. When used to authenticate the user, thresholds are set so as to minimize False Positives (i.e., a threshold too low preventing an unauthorized person from being identified) or False Negatives.
+    * Authentication - Using the similarity score, system decides to authenticate or not. When used to authenticate the user, thresholds are set so as to minimize False Positives (i.e., a threshold too low preventing an unauthorized person from being identified) or False Negatives.
 
 
 **Effectiveness**
