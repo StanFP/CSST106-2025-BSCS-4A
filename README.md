@@ -102,3 +102,8 @@ Image processing involves several techniques that are essential for extracting v
   plt.show()
 ```
 ![Untitled](https://github.com/user-attachments/assets/019c7c62-e472-40b4-a6ec-cd2cd3ba6ce3)
+
+
+# Emerging Form of Image Processing:
+
+YOLO is a deep learning technique for real-time object detection, processing the entire image in a single pass through a convolutional neural network. It balances accuracy and speed, making it suitable for time-sensitive applications like autonomous driving and robotics. YOLOv8 offers improved accuracy, faster processing times, and advanced features, making it an indispensable tool in modern AI systems.
