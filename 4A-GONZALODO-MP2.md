@@ -209,25 +209,26 @@ By comprehensively recognizing these noise variations, researchers and practitio
 **Spatial domain filtering:** Spatial domain filtering involves manipulating an image’s pixel values directly in the spatial domain (the image itself) to enhance or modify its characteristics. Different filter types are used in spatial domain filtering to achieve various effects:
 
 1. **Smoothing Filters:**
+  * **Mean Filter:** Replaces each pixel’s value with the average of its neighboring pixels. It reduces noise but may blur edges and fine details.
 
-  **Mean Filter:** Replaces each pixel’s value with the average of its neighboring pixels. It reduces noise but may blur edges and fine details.
-
-  **Gaussian Filter:** Assigns weights to neighboring pixels based on a Gaussian distribution. It smoothens the image while preserving edges better than mean filtering.
+  * **Gaussian Filter:** Assigns weights to neighboring pixels based on a Gaussian distribution. It smoothens the image while preserving edges better than mean filtering.
+  
 2. **Sharpening Filters:**
 
-  **Laplacian Filter:** Enhances edges by highlighting sudden intensity changes. It emphasizes edges but also amplifies noise.
+  * **Laplacian Filter:** Enhances edges by highlighting sudden intensity changes. It emphasizes edges but also amplifies noise.
 
-  **High-pass Filter:** Emphasizes high-frequency components, making edges and details more pronounced. It can enhance images but may also amplify noise.
+  * **High-pass Filter:** Emphasizes high-frequency components, making edges and details more pronounced. It can enhance images but may also amplify noise.
+    
 3. **Edge Detection Filters:**
+  * **Sobel and Prewitt Filters:** Identify edges by calculating gradients in horizontal and vertical directions. They highlight edges with different orientations.
 
-  **Sobel and Prewitt Filters:** Identify edges by calculating gradients in horizontal and vertical directions. They highlight edges with different orientations.
-
-  **Canny Edge Detector:** More advanced, it uses multiple steps to detect edges accurately by suppressing noise and finding local maxima in gradients.
+  * **Canny Edge Detector:** More advanced, it uses multiple steps to detect edges accurately by suppressing noise and finding local maxima in gradients.
+    
 4. **Other Filters:**
+  * **Median Filter:** Replaces a pixel’s value with the median of neighboring pixels. Effective in removing salt-and-pepper noise while preserving edges.
 
-  **Median Filter:** Replaces a pixel’s value with the median of neighboring pixels. Effective in removing salt-and-pepper noise while preserving edges.
-
-  **Bilateral Filter:** Retains edges while reducing noise. It smoothens images based on both spatial and intensity differences.
+  * **Bilateral Filter:** Retains edges while reducing noise. It smoothens images based on both spatial and intensity differences.
+    
   Spatial Domain Filtering Process:
 
 ```python
