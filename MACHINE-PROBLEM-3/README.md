@@ -263,7 +263,7 @@ plt.show()
 ```
 ![Untitled](https://github.com/user-attachments/assets/90fa4e75-56b0-4347-a26b-a134bdb23d9d)
 
-## Step 5 
+## Step 5: Performance Analysis
 
 SIFT is highly accurate for keypoint detection in complex images, it is very computationally expensive. SURF is an abbreviation for Speeded-Up Robust Features that is faster and better suited for use in real time. Overall, Oriented FAST and Rotated BRIEF is the fastest algorithm to date, but struggles with scale variation and illumination changes, which result in lesser accuracy regarding keypoint detection. SURF has more key points than the others because it makes use of Hessian matrix for its detector. Thus, in real time, features can be matched faster. ORB is fast in speed compared to SIFT and SURF because it utilized FAST keypoint detector and BRIEF descriptor. The latter, SIFT, is the slowest simply because its computation is complex. Brute-Force Matcher and FLANN Matcher vary in strengths when used for feature matching. In high-precision applications, SIFT in combination with Brute-Force Matcher is the best solution. ORB combined with FLANN Matcher offers the best speed and efficiency trading with some accuracy loss.
 
