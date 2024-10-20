@@ -1,4 +1,4 @@
-![Untitled](https://github.com/user-attachments/assets/23cd878b-63ef-4a34-8811-3fa7910c4fcf)# **Apply image processing techniques(Scaling, Rotation, Blurring, Edge Detection) OpenCV**
+# **Apply image processing techniques(Scaling, Rotation, Blurring, Edge Detection) OpenCV**
 
 # **Step 1: Install OpenCV**
 
