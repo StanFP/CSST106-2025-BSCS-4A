@@ -214,6 +214,7 @@ time applications. Let me know if you'd like more details on any specific task!
 ```python
 image = cv2.imread('face.jpg')
 original = image.copy()
+
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 _, binary_image = cv2.threshold(gray_image, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
@@ -230,32 +231,35 @@ sure_fg = np.uint8(sure_fg)
 unknown_region = cv2.subtract(sure_bg, sure_fg)
 
 _, markers = cv2.connectedComponents(sure_fg)
-
 markers = markers + 1
-
 markers[unknown_region == 255] = 0
 
 markers = cv2.watershed(image, markers)
+image[markers == -1] = [0, 0, 255]  
 
-image[markers == -1] = [0, 0, 255]
+plt.figure(figsize=(15, 7))
 
-plt.figure(figsize=(10, 7))
-
-plt.subplot(1, 2, 1)
+plt.subplot(1, 3, 1)
 plt.imshow(cv2.cvtColor(original, cv2.COLOR_BGR2RGB))
 plt.title('Original Image')
 plt.axis('off')
 
-plt.subplot(1, 2, 2)
+plt.subplot(1, 3, 2)
+plt.imshow(binary_image, cmap='gray')
+plt.title('Binary Image')
+plt.axis('off')
+
+plt.subplot(1, 3, 3)
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.title('Image Segmentation using Watershed Algorithm')
 plt.axis('off')
 
-
 plt.show()
+
 ```
 
-![Untitled](https://github.com/user-attachments/assets/367b93bd-fdee-4c41-8b82-da5f82820d61)
+![Untitled](https://github.com/user-attachments/assets/8a3f82f3-c672-40ed-a171-519c7f3775fb)
+
 
 
 ### Conclusion
