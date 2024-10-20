@@ -34,6 +34,13 @@ algorithm to detect corners in an image.
 ```
 ![Untitled](https://github.com/user-attachments/assets/75b610a5-2b9f-4417-b56f-3fd553d948be)
 
+### Conclusion
+Harris Corner Detection Algorithm is one of the most used algorithms in computer vision to find key points that are corners of an image. Corners can be argued to be points that have significant changes in intensity levels in several directions. This makes them so central during feature extraction in tasks such as object recognition, image matching, and 3D reconstruction. Such a detector works by computing the gradient of pixel intensities over a neighborhood and evaluating a response function to determine the "cornerness" of each point.
+
+The strength of the method lies in its efficiency and robustness with respect to noise, making it feasible for real-time applications. However, it suffers with a few drawbacks as it's sensitive to threshold values while determining significant corners, and it depends on scale. That is to say, in an image containing objects of varying sizes, the performance is not necessarily excellent in such cases. Nevertheless, Harris corners are mostly used as a set along with other methods, like SIFT or SURF, for obtaining more precise features concerning their matching and invariance to scales.
+
+In summary, the Harris Corner Detection is a fundamental technique in the field of image processing and serves as a good basis for many higher-level computer vision tasks.
+
 ## **Exercise 2: HOG (Histogram of Oriented Gradients) Feature Extraction**
 **Task:** The HOG descriptor is widely used for object detection, especially in human detection.
 
