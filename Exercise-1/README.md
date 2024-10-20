@@ -368,8 +368,87 @@ plt.tight_layout()
 plt.show()
 
 ```
+![Untitled](https://github.com/user-attachments/assets/60311200-196e-41af-a0b5-dc049d70bf64)
 
-![Uploading Untitled.png…]()
+```python
+
+
+plt.figure(figsize=(15, 14))
+
+plt.subplot(4, 4, 1)
+plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
+plt.title("Original Image")
+plt.axis('off')
+
+plt.subplot(4, 4, 2)
+plt.imshow(cv2.cvtColor(scaled_image, cv2.COLOR_BGR2RGB))
+plt.title("Scaled Image")
+plt.axis('off')
+
+plt.subplot(4, 4, 3)
+plt.imshow(cv2.cvtColor(rotated_image, cv2.COLOR_BGR2RGB))
+plt.title("Rotated Image")
+plt.axis('off')
+
+plt.subplot(4, 4, 4)
+plt.imshow(cv2.cvtColor(gaussian_blur, cv2.COLOR_BGR2RGB))
+plt.title("Gaussian Blur")
+plt.axis('off')
+
+plt.subplot(4, 4, 5)
+plt.imshow(cv2.cvtColor(median_blur, cv2.COLOR_BGR2RGB))
+plt.title("Median Blur")
+plt.axis('off')
+
+plt.subplot(4, 4, 6)
+plt.imshow(edges, cmap='gray')
+plt.title("Canny Edge Detection")
+plt.axis('off')
+
+plt.subplot(4, 4, 7)
+plt.imshow(sobel_edges, cmap='gray')
+plt.title("Sobel Edge Detection")
+plt.axis('off')
+
+plt.subplot(4, 4, 8)
+plt.imshow(prewitt_edges, cmap='gray')
+plt.title("Prewitt Edge Detection")
+plt.axis('off')
+
+plt.subplot(4, 4, 9)
+plt.imshow(laplacian_edges, cmap='gray')
+plt.title("Laplacian Edge Detection")
+plt.axis('off')
+
+plt.subplot(4, 4, 10)
+plt.imshow(cv2.cvtColor(box_blurred, cv2.COLOR_BGR2RGB))
+plt.title("Box Blur")
+plt.axis('off')
+
+plt.subplot(4, 4, 11)
+plt.imshow(cv2.cvtColor(motion_blurred, cv2.COLOR_BGR2RGB))
+plt.title("Motion Blur")
+plt.axis('off')
+
+plt.subplot(4, 4, 12)
+plt.imshow(cv2.cvtColor(sharpened_image, cv2.COLOR_BGR2RGB))
+plt.title("Unsharp Mask")
+plt.axis('off')
+
+
+plt.subplot(4, 4, 13)
+plt.imshow(cv2.cvtColor(bilateral_filter, cv2.COLOR_BGR2RGB))
+plt.title("Bilateral FIlter")
+plt.axis('off')
+
+
+
+plt.tight_layout()
+plt.show()
+
+```
+![Untitled](https://github.com/user-attachments/assets/198773a9-6b3b-4d08-b2ab-2366bdaf8314)
+
 
 
 
