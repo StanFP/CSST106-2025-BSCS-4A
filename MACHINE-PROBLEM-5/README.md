@@ -101,3 +101,5 @@ print(f"Total detections: {total_detections}")
 print(f"Average processing time per image: {average_speed:.4f} seconds")
 
 ```
+
+![Untitled](https://github.com/user-attachments/assets/deedb861-d159-48a8-a6a4-fc48829746e4)
