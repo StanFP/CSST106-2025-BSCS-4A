@@ -1,13 +1,14 @@
 # Project Directory
-## Code
+### Code
 - <a href="">YOLO</a>
 - <a href="">SSD</a>
-## Documentation
+### Documentation
 - <a href="documentation/report.md">Report</a>
-## Video
+- <a href="">Presentation</a>
+### Video
 # Project Outline
 
-## 1. Selection of Dataset and Algorithm:
+### 1. Selection of Dataset and Algorithm:
 - Each student will choose a dataset suitable for object detection tasks. The dataset can be from publicly available sources (e.g., COCO, PASCAL VOC) or one they create.
 - Select an object detection algorithm to apply to the chosen dataset. Possible algorithms include:
   - **HOG-SVM (Histogram of Oriented Gradients with Support Vector Machine)**: A traditional method for object detection.
