@@ -1,3 +1,10 @@
+# Project Directory
+## Code
+- <a href="">YOLO</a>
+- <a href="">SSD</a>
+## Documentation
+- <a href="documentation/report.md">Report</a>
+## Video
 # Project Outline
 
 ## 1. Selection of Dataset and Algorithm:
