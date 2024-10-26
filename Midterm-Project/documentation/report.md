@@ -85,7 +85,7 @@ Both models are evaluated on the same dataset and images to compare their detect
 
 ## 6. Conclusion
 Based on the comparison, we can conclude:
-- **YOLO**It is commendable because of its accuracy and real-time detection capabilities, which make it especially suitable for applications requiring the identification of objects with high precision in dynamic scenarios. Its inference time is also rapid, making it even more effective for tasks requiring swift responses.
+- **YOLO** is commendable because of its accuracy and real-time detection capabilities, which make it especially suitable for applications requiring the identification of objects with high precision in dynamic scenarios. Its inference time is also rapid, making it even more effective for tasks requiring swift responses.
 , while **MobileNet** is larger and resource-efficient, hence suitable for low-power devices and scenarios where lightweight models are preferred. It strikes a good balance between speed and performance, which is beneficial to applications on mobile or edge devices.
 - After all, both models have pros. The choice of one of the models will depend on the application requirements—whether you prefer accuracy and speed by choosing YOLO or more efficient and lightweight deployment by choosing MobileNet.
 
