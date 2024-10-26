@@ -32,19 +32,18 @@ Both models are evaluated on the same dataset and images to compare their detect
 ### YOLO Model
 
 #### Image 1
-![YOLO Detection - Image 1](../images/YOLO_RESULTS/content/runs/detect/train/val_batch0_labels.jpg)
-![YOLO Detection - Image 1](../images/YOLO_RESULTS/content/runs/detect/train/val_batch2_labels.jpg)
+![YOLO Detection - Image 1](../images/YOLO_RESULTS/content/runs/detect/train/val_batch0_pred.jpg)
 
 **Detection Summary:**
-- Detected Objects: (List objects, e.g., dog, car)
-- Confidence Levels: (e.g., dog: 95%, car: 87%)
+- Detected Objects: (Rock)
+- Confidence Levels: (Rock: 90%)
 
 #### Image 2
-![YOLO Detection - Image 2](path/to/yolo_image_2.png)
+![YOLO Detection - Image 1](../images/YOLO_RESULTS/content/runs/detect/train/val_batch2_pred.jpg)
 
 **Detection Summary:**
-- Detected Objects: (List objects)
-- Confidence Levels: (List confidence)
+- Detected Objects: (Paper, Scissors)
+- Confidence Levels: (Paper: 90%, Scissors: 90%)
 
 ### MobileNet Model
 
