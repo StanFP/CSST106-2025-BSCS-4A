@@ -32,6 +32,7 @@ Both models are evaluated on the same dataset and images to compare their detect
 ### YOLO Model
 
 #### Image 1
+![YOLO Detection - Image 1](../images/YOLO_RESULTS/content/runs/detect/train/val_batch0_labels.jpg)
 ![YOLO Detection - Image 1](../images/YOLO_RESULTS/content/runs/detect/train/val_batch2_labels.jpg)
 
 **Detection Summary:**
