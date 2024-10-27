@@ -16,6 +16,9 @@
 - <a href="documentation/report.md">Report</a>
 - <a href="">Presentation</a>
 ### Video
+
+- <a href="">Video Presentation</a>
+
 # Project Outline
 
 ### 1. Selection of Dataset and Algorithm:
