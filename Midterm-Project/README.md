@@ -1,7 +1,17 @@
 # Project Directory
 ### Code
-- <a href="">YOLO</a>
-- <a href="">SSD</a>
+1. **YOLO**
+
+  - <a href="code/4A_DELACRUZ_GONZALODO_MIDTERMS_EXAM_YOLO.ipynb">YOLO TRAINING</a>
+  - <a href="code/4A_DELACRUZ_GONZALODO_MIDTERMS_EXAM_YOLO_TEST.ipynb">YOLO EVALUATE</a>
+
+2. **SSD**
+
+  - <a href="code/4A_DELACRUZ_GONZALODO_MIDTERMS_EXAM_SSD.ipynb">SSD TRAINING</a>
+  - <a href="code/4A_DELACRUZ_GONZALODO_MIDTERMS_EXAM_SSD_TEST.ipynb">SSD EVALUATE</a>
+
+
+
 ### Documentation
 - <a href="documentation/report.md">Report</a>
 - <a href="">Presentation</a>
