@@ -14,10 +14,10 @@
 
 ### Documentation
 - <a href="documentation/4A-DELACRUZ-GONZALODO-MIDTERMS-EXAM-REPORT.md">Report</a>
-- <a href="">Presentation</a>
+- <a href="video/4A-DELACRUZ-GONZALODO-MIDTERMS-EXAM-PRESENTATION">Presentation</a>
 ### Video
 
-- <a href="">Video Presentation</a>
+- <a href="video/4A-DELACRUZ-GONZALODO-MIDTERMS-EXAM-VIDEO-LINK.txt">Video Presentation</a>
 
 # Project Outline
 
